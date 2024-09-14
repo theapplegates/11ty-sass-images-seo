@@ -3,7 +3,7 @@
   "description": "An 11ty starter with project scaffolding, Sass, image optimization, and SEO enhancements.",
   "version": "1.0.0",
   "license": "MIT (TODO: replace me)",
-  "author": "AleksandrHovhannisyan (TODO: replace me)",
+  "author": "Paul Applegate",
   "type": "module",
   "scripts": {
     "clean": "rimraf _site .cache",
@@ -16,7 +16,7 @@
     "build:css": "sass src/assets/styles:_site/assets/styles --style=compressed",
     "lint": "npm-run-all lint:*",
     "lint:js:fix": "eslint --fix .",
-    "lint:css:fix": "stylelint --fix '**/*.scss'"
+    "lint:css:fix": "stylelint --fix '**/*.scss'",  // Comma added here
     "lint:css": "stylelint --fix \"src/**/*.scss\"",
     "lint:js": "eslint --cache --fix \"**/*.js\""
   },
