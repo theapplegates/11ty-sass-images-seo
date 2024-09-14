@@ -1,5 +1,5 @@
 export default {
-  title: ''Living Life",
+  title: 'Life. Live it',
   author: '',
   email: '',
   description: '',
